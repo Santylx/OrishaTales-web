@@ -16,7 +16,7 @@ export default function Footer() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
                 <p className={`text-[10px] tracking-widest transition-colors duration-300 ${isTransparent ? "text-gray-300/80" : "text-gray-400"
                     }`}>
-                    &copy; {new Date().getFullYear()}  2025 Olazábal | All rights reserved.
+                    &copy; {new Date().getFullYear()} Olazábal | All rights reserved.
                 </p>
             </div>
         </footer>
