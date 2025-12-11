@@ -19,7 +19,7 @@ export default function Navigation() {
 
     return (
         <nav className="fixed top-0 left-0 w-full z-50 bg-white/70 backdrop-blur-md border-b border-white/20">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="w-full px-6 md:px-12">
                 <div className="flex justify-between items-center h-20">
                     {/* Logo / Artist Name */}
                     <div className="flex-shrink-0 flex items-center gap-4">
