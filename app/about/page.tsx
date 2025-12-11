@@ -11,7 +11,7 @@ export default function AboutPage() {
                     src="/about-olazabal.jpg"
                     alt="Santiago Rodriguez Olazábal"
                     fill
-                    className="object-cover object-center"
+                    className="object-cover object-left md:object-center" // Prioritize left side on mobile, center on desktop
                     priority
                     quality={90}
                 />
