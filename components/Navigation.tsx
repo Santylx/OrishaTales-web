@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import Image from "next/image";
 
 const links = [
     { href: "/about", label: "About Olazábal" },
@@ -10,7 +11,6 @@ const links = [
     { href: "/events", label: "Events" },
     { href: "/artwork", label: "Artwork" },
     { href: "/contact", label: "Contact" },
-    // { href: "/shop", label: "Shop" }, // Hidden for now
 ];
 
 export default function Navigation() {
@@ -22,9 +22,22 @@ export default function Navigation() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-20">
                     {/* Logo / Artist Name */}
-                    <div className="flex-shrink-0">
-                        <Link href="/" className="text-2xl tracking-widest uppercase font-light hover:opacity-70 transition-opacity">
-                            Olazábal
+                    <div className="flex-shrink-0 flex items-center gap-4">
+                        <Link href="/" className="flex items-center gap-3 group">
+                            <div className="relative w-10 h-10 transition-transform group-hover:scale-105">
+                                <Image
+                                    src="/logo.png"
+                                    alt="Olazábal Logo"
+                                    fill
+                                    className="object-contain"
+                                    sizes="40px"
+                                />
+                            </div>
+                            {pathname === "/" && (
+                                <span className="text-xl md:text-2xl tracking-[0.15em] uppercase font-light text-gray-900 group-hover:opacity-70 transition-opacity">
+                                    Santiago Rodriguez Olazábal
+                                </span>
+                            )}
                         </Link>
                     </div>
 
