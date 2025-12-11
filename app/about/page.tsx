@@ -11,7 +11,7 @@ export default function AboutPage() {
                     src="/about-olazabal.jpg"
                     alt="Santiago Rodriguez Olazábal"
                     fill
-                    className="object-cover object-[28%_50%] md:object-center" // Precision adjustment to 28% to center the red ball
+                    className="object-cover object-[30%_50%] md:object-center" // Final adjustment to 30%
                     priority
                     quality={90}
                 />
