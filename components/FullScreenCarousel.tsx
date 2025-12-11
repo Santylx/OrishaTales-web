@@ -37,8 +37,8 @@ export default function FullScreenCarousel() {
                         priority={index === 0}
                         quality={90}
                     />
-                    {/* Subtle overlay to ensure text readability if needed, though user requested pure images mostly */}
-                    <div className="absolute inset-0 bg-black/20" />
+                    {/* Overlay removed for full brightness */}
+                    {/* <div className="absolute inset-0 bg-black/20" /> */}
                 </div>
             ))}
         </div>
