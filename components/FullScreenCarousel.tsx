@@ -11,26 +11,23 @@ interface ImageConfig {
 const images: ImageConfig[] = [
     {
         src: "/hero-1.jpg",
-        mobileClass: "object-cover object-[80%_50%]", // Shift image left -> see Right side (Center the right figure)
+        mobileClass: "object-cover object-[60%_50%]", // Adjusted: Moved image right (decreased %)
     },
     {
         src: "/hero-2.jpg",
-        mobileClass: "object-cover object-[20%_50%]", // Shift image right -> see Left side (Head of bird/child)
+        mobileClass: "object-cover object-[40%_50%]", // Adjusted: Moved image left (increased %)
     },
     {
         src: "/hero-3.jpg",
-        mobileClass: "object-contain bg-white", // Zoom out -> Fit entire image. White bg for bars.
+        mobileClass: "object-cover object-center", // Reverted to cover (less zoom out than contain)
     },
     {
         src: "/hero-4.jpg",
-        mobileClass: "object-contain object-right bg-white", // Zoom out + shift left (show right? No, 'correr completamente hacia la izquierda' usually means move image left. But if contained, alignment matters. If contained and wide, object-right aligns it to right. User said: "correr la imagen completamente hacia la izquierda", i.e. show the RIGHT side? Or move the image TO the left? "para que se vea la punta del tarro". If I don't know where the 'punta del tarro' is, I'll assume object-right if moving image left. Actually 'object-contain' shows everything. Maybe they mean 'object-cover' but zoomed out? You can't. Let's stick to contain. If contain, alignment just moves the small image. I'll try object-right.)
-        // Correction: If object-contain, the whole image is visible. Alignment only matters if aspect ratio leaves space.
-        // Let's assume user might want cover but shifted for #4? "hacer un poco de zoom out, y correr...". Contain IS zoom out.
-        // Let's use object-contain for now.
+        mobileClass: "object-cover object-left scale-[2.3] origin-left", // ZoomIn 230% + Full Left
     },
     {
         src: "/hero-5.jpg",
-        mobileClass: "object-cover object-right", // Shift image left -> See Right side (The figure)
+        mobileClass: "object-cover object-right", // Pending user updates
     },
 ];
 
