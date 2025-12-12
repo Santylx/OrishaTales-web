@@ -30,7 +30,7 @@ export default function FullScreenCarousel() {
                             src={`/hero-${id}-mobile.jpg`}
                             alt={`Artwork ${id}`}
                             fill
-                            className="object-contain object-center"
+                            className={`object-contain object-center ${id === 5 ? "scale-[1.02]" : ""}`}
                             priority={index === 0}
                             quality={90}
                         />
