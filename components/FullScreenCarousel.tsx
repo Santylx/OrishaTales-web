@@ -42,7 +42,7 @@ export default function FullScreenCarousel() {
                             src={`/hero-${id}.jpg`}
                             alt={`Artwork ${id}`}
                             fill
-                            className="object-cover object-center"
+                            className={`object-cover ${id === 5 ? "object-[50%_60%]" : "object-center"}`}
                             priority={index === 0}
                             quality={90}
                         />
