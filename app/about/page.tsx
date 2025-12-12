@@ -32,6 +32,9 @@ export default function AboutPage() {
             {/* Biography Content */}
             <div className="px-6 md:px-12 pb-32 flex flex-col items-end">
                 <div className="bg-white/80 backdrop-blur-md p-8 md:p-12 max-w-2xl text-justify space-y-6 text-gray-800 font-light leading-relaxed shadow-sm">
+                    <p className="text-lg text-gray-600 italic mb-8 border-l-2 border-gray-300 pl-4">
+                        &quot;Mi obra es una alabanza a la memoria de mis antepasados, como la ablución de agua fresca que se ofrece a la santidad del espíritu y que me activa a cada momento.&quot;
+                    </p>
                     <p>
                         Born in Havana, Cuba, on July 25, 1955, Santiago Rodríguez Olazábal embarked on his artistic path at the National Academy of Art San Alejandro. Though his formal studies remained uncompleted between 1972 and 1975, this early immersion laid the groundwork for a distinguished career marked by profound introspection and a rich engagement with cultural narratives. Today, he is revered as a master whose influence transcends the Cuban canon, standing as a preeminent figure in the global narrative of Afro-descendant art.
                     </p>
