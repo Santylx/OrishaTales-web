@@ -36,7 +36,7 @@ export default function AboutPage() {
                         <p className="text-base text-gray-500 italic font-serif">
                             &quot;Mi obra es una alabanza a la memoria de mis antepasados, como la ablución de agua fresca que se ofrece a la santidad del espíritu y que me activa a cada momento.&quot;
                         </p>
-                        <p className="text-lg text-gray-900 font-serif not-italic">
+                        <p className="text-base text-gray-500 font-serif not-italic">
                             &quot;My work is a praise to the memory of my ancestors, like the ablution of fresh water offered to the sanctity of the spirit, and which activates me at every moment.&quot;
                         </p>
                     </div>
