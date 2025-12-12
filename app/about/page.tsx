@@ -30,7 +30,7 @@ export default function AboutPage() {
             </div>
 
             {/* Biography Content */}
-            <div className="px-6 md:px-12 pb-32 flex flex-col items-end">
+            <div className="pl-6 md:pl-12 pr-0 pb-32 flex flex-col items-end">
                 <div className="bg-white/80 backdrop-blur-md p-8 md:p-12 max-w-3xl text-justify space-y-6 text-gray-800 font-light leading-relaxed shadow-sm">
                     <div className="mb-8 border-l-4 border-gray-300 pl-6 space-y-3">
                         <p className="text-base text-gray-500 italic font-serif">
