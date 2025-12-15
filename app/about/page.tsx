@@ -24,7 +24,7 @@ export default function AboutPage() {
                         src="/about-olazabal-mobile.jpg"
                         alt="Santiago Rodriguez Olazábal"
                         fill
-                        className="object-cover object-center scale-[0.85]"
+                        className="object-cover object-center"
                         priority
                         quality={90}
                     />
