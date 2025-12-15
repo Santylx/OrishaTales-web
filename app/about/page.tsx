@@ -87,7 +87,7 @@ export default function AboutPage() {
                         rel="noopener noreferrer"
                         className="block mt-12 pt-6 border-t border-gray-200 text-right text-sm font-medium tracking-[0.1em] text-gray-400 hover:text-gray-900 transition-colors uppercase"
                     >
-                        Download CV (PDF)
+                        Download Olazábal CV
                     </a>
                 </div>
             </div>
