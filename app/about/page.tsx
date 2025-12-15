@@ -30,16 +30,20 @@ export default function AboutPage() {
             </div>
 
             {/* Biography Content */}
+            {/* Width increased to max-w-4xl and pr-0 maintained for right alignment consistency */}
             <div className="pl-6 md:pl-12 pr-0 pb-32 flex flex-col items-end">
-                <div className="bg-white/80 backdrop-blur-md p-8 md:p-12 max-w-3xl text-justify space-y-6 text-gray-800 font-light leading-relaxed shadow-sm">
+                <div className="bg-white/80 backdrop-blur-md p-8 md:p-12 max-w-4xl text-justify space-y-6 text-gray-800 font-light leading-relaxed shadow-sm">
+                    {/* Bilingual Quote Header */}
                     <div className="mb-8 border-l-4 border-gray-300 pl-6 space-y-3">
                         <p className="text-base text-gray-500 italic font-serif">
                             &quot;Mi obra es una alabanza a la memoria de mis antepasados, como la ablución de agua fresca que se ofrece a la santidad del espíritu y que me activa a cada momento.&quot;
                         </p>
                         <p className="text-base text-gray-500 font-serif not-italic">
-                            &quot;My work is a praise to the memory of my ancestors, like the ablution of fresh water offered to the sanctity of the spirit, and which activates me at every moment.&quot;
+                            &quot;My work is a praise to the memory of my ancestors, an ablution of fresh water offered to the sanctity of spirit, which activates me at every moment.&quot;
                         </p>
                     </div>
+
+                    {/* Updated Biography Text */}
                     <p>
                         Born in Havana, Cuba, on July 25, 1955, Santiago Rodríguez Olazábal embarked on his artistic path at the National Academy of Art San Alejandro. Though his formal studies remained uncompleted between 1972 and 1975, this early immersion laid the groundwork for a distinguished career marked by profound introspection and a rich engagement with cultural narratives. Today, he is revered as a master whose influence transcends the Cuban canon, standing as a preeminent figure in the global narrative of Afro-descendant art.
                     </p>
@@ -50,7 +54,7 @@ export default function AboutPage() {
                         The artist remained prolific during the early 2020s, presenting <i>La fuerza del tiempo</i> at Galería Acacia (2021) and expanding his reach to Belgium with <i>Las marcas de la noche</i> at Kloser Contemporary Art (2021). These recent milestones build upon a foundational history of exhibitions, including <i>La noche puso sus ojos en ella</i> at NG Art Gallery in Panama City (2019) and <i>Imoye</i> at the University of Missouri (2016).
                     </p>
                     <p>
-                        His pieces, often serving as collateral events to major art gatherings, demonstrate a consistent presence in the global art discourse. His engagement remains vigorous with recent participations in the <i>HB</i> exhibitions (2024 and 2025), honoring the 40th anniversary of the Havana Biennial. He has contributed to critical dialogues in shows such as <i>Mente Sabia Para Crear</i> at Casa de las Américas (2024) and explored themes of heritage in <i>West Indies Ltd</i> at Galería Villa Manuela (2024).
+                        His pieces, often serving as collateral events to major art gatherings, demonstrating a consistent presence in the global art discourse. His engagement remains vigorous with recent participations in the <i>HB</i> exhibitions (2024 and 2025), honoring the 40th anniversary of the Havana Biennial. He has contributed to critical dialogues in shows such as <i>Mente Sabia Para Crear</i> at Casa de las Américas (2024) and explored themes of heritage in <i>West Indies Ltd.</i> at Galería Villa Manuela (2024).
                     </p>
                     <p>
                         International audiences continue to experience his compelling narratives through diverse collective showcases. Recent highlights include <i>Fe: Expressions of Faith in Contemporary Cuban Art</i> in Santa Fe, New Mexico (2023), and the European exhibition <i>Healing Power: Living Traditions, Global Interactions</i> at the National Museum of World Cultures in the Netherlands (2021). These recent events complement his historic presence in landmark exhibitions such as <i>Without Masks</i> and <i>Drapetomania</i>.
