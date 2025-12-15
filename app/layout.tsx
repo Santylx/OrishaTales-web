@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Santiago Rodriguez Olazábal",
-  description: "Official portfolio of contemporary Afro-Cuban art master Santiago Rodriguez Olazábal.",
+  title: "Santiago Rodríguez Olazábal",
+  description: "Official portfolio of contemporary Afro-Cuban art master Santiago Rodríguez Olazábal.",
 };
 
 export default function RootLayout({

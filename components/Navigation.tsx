@@ -35,7 +35,7 @@ export default function Navigation() {
                             </div>
                             {pathname === "/" && (
                                 <span className="hidden md:block text-xl md:text-2xl tracking-[0.15em] uppercase font-light text-gray-900 group-hover:opacity-70 transition-opacity">
-                                    Santiago Rodriguez Olazábal
+                                    Santiago Rodríguez Olazábal
                                 </span>
                             )}
                         </Link>

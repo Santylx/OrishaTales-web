@@ -11,7 +11,7 @@ export default function AboutPage() {
                 <div className="hidden md:block relative w-full h-full">
                     <Image
                         src="/about-olazabal.jpg"
-                        alt="Santiago Rodriguez Olazábal"
+                        alt="Santiago Rodríguez Olazábal"
                         fill
                         className="object-cover object-center"
                         priority
@@ -35,7 +35,7 @@ export default function AboutPage() {
             <div className="min-h-[calc(100vh-5rem)] flex flex-col items-end justify-end pb-12 px-6 md:px-12">
                 <div className="text-right space-y-2 animate-fade-in">
                     <h1 className="text-xl md:text-3xl font-light tracking-[0.2em] uppercase text-gray-900">
-                        Santiago Rodriguez Olazábal
+                        Santiago Rodríguez Olazábal
                     </h1>
                     <p className="text-xs md:text-sm tracking-[0.15em] font-light text-gray-700 uppercase">
                         Contemporary Afro-Cuban Art Master
