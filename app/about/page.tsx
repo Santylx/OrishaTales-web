@@ -79,6 +79,16 @@ export default function AboutPage() {
                     <p>
                         Throughout his career, Santiago Rodríguez Olazábal has garnered notable accolades that acknowledge his singular talent. Among these are the Special Mention for the Most Original Work at the Knoke Art Fair (2014), the Diploma al Mérito Artístico from the Instituto Superior de Arte (2007), and the International Silver Plate Award at the 4th Ankara Biennial (1992). These honors, alongside recognition for specific works like <i>Onile</i>, which earned the Illustrious Visitor Coin of Vatican City (2005), underscore his consistent impact and enduring recognition in the art world.
                     </p>
+
+                    {/* CV Download Link */}
+                    <a
+                        href="/Olazábal-CV-Dic-2025.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="block mt-12 pt-6 border-t border-gray-200 text-right text-sm font-medium tracking-[0.1em] text-gray-400 hover:text-gray-900 transition-colors uppercase"
+                    >
+                        Download CV (PDF)
+                    </a>
                 </div>
             </div>
         </div>
