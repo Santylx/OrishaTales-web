@@ -6,15 +6,29 @@ export default function AboutPage() {
     return (
         <div className="relative w-full">
             {/* Background Image - Fixed to cover screen */}
-            <div className="fixed inset-0 -z-10">
-                <Image
-                    src="/about-olazabal.jpg"
-                    alt="Santiago Rodriguez Olazábal"
-                    fill
-                    className="object-cover object-[30%_50%] md:object-center" // Final adjustment to 30%
-                    priority
-                    quality={90}
-                />
+            <div className="fixed inset-0 -z-10 bg-gray-100">
+                {/* Desktop Image */}
+                <div className="hidden md:block relative w-full h-full">
+                    <Image
+                        src="/about-olazabal.jpg"
+                        alt="Santiago Rodriguez Olazábal"
+                        fill
+                        className="object-cover object-center"
+                        priority
+                        quality={90}
+                    />
+                </div>
+                {/* Mobile Image */}
+                <div className="block md:hidden relative w-full h-full">
+                    <Image
+                        src="/about-olazabal-mobile.jpg"
+                        alt="Santiago Rodriguez Olazábal"
+                        fill
+                        className="object-cover object-center"
+                        priority
+                        quality={90}
+                    />
+                </div>
             </div>
 
             {/* Hero Text Content */}
