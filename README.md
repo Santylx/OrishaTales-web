@@ -1,4 +1,4 @@
-# Olazábal - Art Portfolio
+# Olazábal - Official WebSite
 
 Modern art portfolio website built with Next.js 14+ (App Router), Tailwind CSS, and TypeScript. Optimized for Vercel deployment.
 
