@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Orisha Tales",
   description: "Exploring the rich mythology and stories of the Orishas.",
   icons: {
-    icon: "/logo.png",
+    icon: "/SoloTortugaFavicon.png",
   },
 };
 
