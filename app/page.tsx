@@ -29,16 +29,14 @@ export default function Home() {
             quality={90}
           />
         </div>
-        {/* Dark Overlay for better text readability */}
-        <div className="absolute inset-0 bg-black/30" />
       </div>
 
-      <div className="z-10 text-center px-4 animate-fade-in flex flex-col items-center gap-8">
+      <div className="z-10 text-center px-4 animate-fade-in flex flex-col items-center gap-24">
         <h1 className="text-4xl md:text-7xl text-white drop-shadow-lg font-henny">
           Something Amazing is on the Way!
         </h1>
 
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-8">
           <p className="text-2xl md:text-4xl text-white/90 font-bubbles tracking-wide">
             Stay in the Loop
           </p>
