@@ -6,7 +6,7 @@ import { useState } from "react";
 import Image from "next/image";
 
 const links = [
-    { href: "/about", label: "About Olazábal" },
+    { href: "/about", label: "About" },
     { href: "/articles", label: "Articles" },
     { href: "/events", label: "Events" },
     { href: "/artwork", label: "Artwork" },
@@ -27,7 +27,7 @@ export default function Navigation() {
                             <div className="relative w-10 h-10 transition-transform group-hover:scale-105">
                                 <Image
                                     src="/logo.png"
-                                    alt="Olazábal Logo"
+                                    alt="Orisha Tales Logo"
                                     fill
                                     className="object-contain"
                                     sizes="40px"
@@ -35,7 +35,7 @@ export default function Navigation() {
                             </div>
                             {pathname === "/" && (
                                 <span className="hidden md:block text-xl md:text-2xl tracking-[0.15em] uppercase font-light text-gray-900 group-hover:opacity-70 transition-opacity">
-                                    Santiago Rodríguez Olazábal
+                                    Orisha Tales
                                 </span>
                             )}
                         </Link>
