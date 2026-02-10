@@ -4,7 +4,7 @@ import { Instagram } from "lucide-react";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+    <main className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
       {/* Background Images - Responsive */}
       <div className="absolute inset-0 -z-10">
         {/* Desktop Hero */}
@@ -31,13 +31,13 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="z-10 text-center px-4 animate-fade-in flex flex-col items-center gap-24">
+      <div className="z-10 text-center px-4 animate-fade-in flex flex-col items-center gap-24 -mt-20">
         <h1 className="text-4xl md:text-7xl text-white drop-shadow-lg font-henny">
           Something Amazing is on the Way!
         </h1>
 
         <div className="flex flex-col items-center gap-8">
-          <p className="text-3xl md:text-5xl text-white/90 font-bubbles font-bold tracking-wide">
+          <p className="text-3xl md:text-5xl text-white/90 font-bubbles font-bold tracking-wide drop-shadow-md">
             Stay in the Loop
           </p>
 

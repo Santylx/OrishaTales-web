@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <footer
             className={`py-8 mt-auto z-20 transition-colors duration-300 ${isTransparent
-                ? "fixed bottom-0 w-full bg-transparent border-none"
+                ? "fixed bottom-0 w-full bg-white border-none"
                 : "bg-white border-t border-gray-100 relative"
                 }`}
         >
