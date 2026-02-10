@@ -44,7 +44,7 @@ export default function Home() {
           </p>
 
           <Link
-            href="https://www.instagram.com/orishatalesbooks/"
+            href="https://www.instagram.com/orishatalesbooks/?utm_source=ig_web_button_share_sheet"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white hover:text-white/70 transition-all transform hover:scale-110"

@@ -20,17 +20,17 @@ export default function Navigation() {
     return (
         <nav className="fixed top-0 left-0 w-full z-50 bg-white/[0.55] backdrop-blur-md border-b border-white/20">
             <div className="w-full px-6 md:px-12">
-                <div className="flex justify-between items-center h-28">
+                <div className="flex justify-between items-center h-40">
                     {/* Logo / Artist Name */}
                     <div className="flex-shrink-0 flex items-center gap-4">
                         <Link href="/" className="flex items-center gap-3 group">
-                            <div className="relative w-[100px] h-[100px] transition-transform group-hover:scale-105">
+                            <div className="relative w-[150px] h-[150px] transition-transform group-hover:scale-105">
                                 <Image
                                     src="/logo.png"
                                     alt="Orisha Tales Logo"
                                     fill
                                     className="object-contain"
-                                    sizes="100px"
+                                    sizes="150px"
                                 />
                             </div>
                         </Link>
