@@ -37,7 +37,7 @@ export default function Home() {
         </h1>
 
         <div className="flex flex-col items-center gap-8">
-          <p className="text-2xl md:text-4xl text-white/90 font-bubbles tracking-wide">
+          <p className="text-3xl md:text-5xl text-white/90 font-bubbles font-bold tracking-wide">
             Stay in the Loop
           </p>
 
