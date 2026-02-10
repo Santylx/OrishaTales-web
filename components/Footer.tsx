@@ -14,7 +14,7 @@ export default function Footer() {
                 }`}
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
-                <p className={`text-[10px] tracking-widest transition-colors duration-300 ${isTransparent ? "text-gray-300/80" : "text-gray-400"
+                <p className={`text-[10px] tracking-widest transition-colors duration-300 ${isTransparent ? "text-gray-900" : "text-gray-900"
                     }`}>
                     &copy; {new Date().getFullYear()} Orisha Tales | All rights reserved.
                 </p>
