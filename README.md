@@ -1,4 +1,4 @@
-# Olazábal - Official WebSite
+# Orisha Tales - Official WebSite
 
 Modern art portfolio website built with Next.js 14+ (App Router), Tailwind CSS, and TypeScript. Optimized for Vercel deployment.
 
