@@ -5,13 +5,13 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import Image from "next/image";
 
-const links = [
-    { href: "/about", label: "About" },
-    { href: "/articles", label: "Articles" },
-    { href: "/events", label: "Events" },
-    { href: "/artwork", label: "Artwork" },
-    { href: "/contact", label: "Contact" },
-];
+const links: { href: string; label: string }[] = [
+    // { href: "/about", label: "About" },
+    // { href: "/articles", label: "Articles" },
+    // { href: "/events", label: "Events" },
+    // { href: "/artwork", label: "Artwork" },
+    // { href: "/contact", label: "Contact" },
+] as const as { href: string; label: string }[];
 
 export default function Navigation() {
     const pathname = usePathname();

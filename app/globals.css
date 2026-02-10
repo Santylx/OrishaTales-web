@@ -1,8 +1,26 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Henny Penny';
+  src: url('/HennyPenny-Kp0A.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Blue Bubbles';
+  src: url('/BlueBubbles-gwE7P.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-henny-penny: 'Henny Penny', cursive;
+  --font-blue-bubbles: 'Blue Bubbles', cursive;
 }
 
 @theme inline {
@@ -10,6 +28,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-henny: var(--font-henny-penny);
+  --font-bubbles: var(--font-blue-bubbles);
 }
 
 body {
